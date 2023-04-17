@@ -29,7 +29,7 @@ describe("Add multiple items to basket", () => {
       // })
       // cy.get('.dropdown-toggle > .fa').click();
 
-      //use page object command 
+      //use page object command to navigate to haircare page
       const items = new AutoStore_HairCare_PO()
       items.addHairCareProductsToBasket()
   });
