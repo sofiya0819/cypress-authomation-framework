@@ -2,10 +2,10 @@ import AutoStore_Homepage_PO from '../../support/POM/test-store/AutoStore_Homepa
 import AutoStore_HairCare_PO from '../../support/POM/test-store/AutoStore_HairCare_PO'
 /// <reference types="cypress" />
 
-describe("Add multiple items to basket", () => {
+describe("Add multiple products to basket", () => {
   
   before(function () {
-    cy.fixture("products").then(function (data) {
+    cy.fixture("products").then(function(data) {
       globalThis.data = data;
     });
   });
