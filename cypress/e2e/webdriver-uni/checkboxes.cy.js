@@ -20,7 +20,7 @@ describe("Verify checkboxes via webdriveruni", () => {
         cy.get('@option-1').check().should('be.checked')
     });
 
-    it("This test will fail, check the video and screenshots in the dashboard", () => {
+    it("Should fail, check the video and screenshots in the dashboard", () => {
         cy.get('#checkboxes > :nth-child(1) > input').as('option-1') //use alias
         cy.get('@option-2').check().should('be.checked')
     });
